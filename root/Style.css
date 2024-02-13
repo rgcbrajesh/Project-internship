@@ -317,6 +317,7 @@ header {
 
 .contanior {
   text-align: center;
+
   /* margin-top: 50px; */
 }
 
@@ -354,6 +355,9 @@ header {
   border: none;
   font-weight: bold;
   font-size: 20px;
+}
+.img{
+  height:250px ;
 }
 
 /* Event Gallery mobile responsive */
@@ -1121,10 +1125,7 @@ textarea {
 
 }
 
-p {
-  font-style: oblique;
 
-}
 
 .library-div {
   width: fit-content;
@@ -1183,10 +1184,7 @@ p {
 
 }
 
-p {
-  font-style: oblique;
 
-}
 
 .smart-div {
   width: fit-content;
@@ -1255,6 +1253,50 @@ p {
     width: 100%;
   }
 }
+/* building */
+.building{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  box-shadow: 2px 2px 4px 2px gray;
+  /* border: solid red 2px; */
+  
+}
+.heading{
+  text-align: center;
+  color: #FFAF36;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.build-text{
+width: 50%;
+}
+.clab-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.computer-lab{
+  width: 90%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  box-shadow: 2px 2px 4px 2px gray;
+  /* border: solid red 2px; */
+  
+}
+.clab-text{
+  width: 50%;
+
+}
 
 /* ground section starting  */
 .ground-main {
@@ -1273,7 +1315,7 @@ p {
 .ground {
   display: flex;
 
-  box-shadow: 2px 2px 4px 2px lightgray;
+  box-shadow: 2px 2px 4px 2px gray;
   height: 350px;
 
   justify-content: space-around;

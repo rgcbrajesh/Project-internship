@@ -1,0 +1,80 @@
+@media screen and (Max-width: 456px) {
+    #build-img {
+        height: 300px;
+    }
+
+    .build-text {
+        display: none;
+    }
+
+    .building {
+        height: 400px;
+    }
+
+    .ground-text {
+        display: none;
+    }
+
+    #ground {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .ground {
+        height: 300px;
+    }
+
+    #kidsground {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .ground-text {
+        display: none !important;
+    }
+
+    .clab-text {
+        display: none !important;
+    }
+
+    #computer {
+        width: 100%;
+    }
+
+    .clab-container {
+        height: 400px;
+    }
+
+    #chemistry {
+        width: 100%;
+    }
+
+    #bio {
+        width: 100%;
+    }
+
+    #physics {
+        width: 100%;
+    }
+
+    .containerMain {
+        height: 2500px;
+    }
+
+    #musicContainer {
+        height: 500px;
+    }
+
+    #img-galleery {
+        height: 200px;
+        margin-left: 50px;
+        padding: 10px;
+    }
+
+    .img {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        height:800px;
+    }
+}
