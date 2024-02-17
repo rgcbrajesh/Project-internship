@@ -2,7 +2,7 @@
 .Main-Container {
   width: 100%;
   height: 90px;
-
+text-align: justify;
 }
 
 header {
@@ -172,92 +172,34 @@ header {
 }
 
 /* Facility Section Starting */
-
-#facility {
+.section {
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .facility-div {
-  width: 100%;
-  justify-content: center;
   margin-top: 15px;
   margin-bottom: 15px;
-
-}
-
-.facility-item {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 300px);
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  text-align: center;
-  margin: auto;
-  padding: 50px;
-  justify-content: space-around;
   background-color: rgba(227, 227, 227, 1);
 }
 
-#img {
-
-  width: 203px;
-  height: 130px;
-  margin: auto;
-}
-
-.facility-item p {
-  font-size: 6mm;
-  font-weight: 700;
-  margin-top: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.facility-item div {
+.facility-item {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 10px;
+  height: 180px;
   background-color: white;
   border-radius: 10px;
-  /* border: 2px solid; */
-  width: 290px;
-  margin: auto;
-
 }
 
-/* Facility mobile responsive */
+.facility-item img {
+  width: 100%;
+  height: 120px;
+}
 
-@media screen and (Max-width: 456px) {
+@media (max-width: 767px) {
   .facility-item {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 150px);
-    align-items: center;
-    justify-content: center;
-    /* gap: 30px; */
-    text-align: center;
-    margin: auto;
-    /* padding: 50px; */
-    justify-content: space-around;
-    background-color: rgba(227, 227, 227, 1);
-  }
-
-  .facility-item div {
-    background-color: white;
-    border-radius: 10px;
-    width: 150px;
-    margin-left: 0px !important;
-  }
-
-  #img {
-    width: 100px;
-    height: 70px;
-    margin: auto;
-  }
-
-  .facility-item p {
-    font-size: 15px;
-    font-weight: 700;
-    margin-top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
   }
 }
 
@@ -313,12 +255,18 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
+  margin-bottom:80px;
 }
 
 .contanior {
   text-align: center;
-
-  /* margin-top: 50px; */
+}
+.section360{
+  margin-top: 30px;
+}
+.section{
+  margin-top:15px;
 }
 
 /* Event Gallery section Starting */
@@ -481,7 +429,6 @@ textarea {
 .text {
   display: flex;
   padding-left: 20px;
-  font-style: oblique;
   flex-direction: column;
   width: 500px;
   height: 400px;
@@ -909,6 +856,7 @@ textarea {
   padding: 20px 100px;
   margin-top: 100px;
   margin-bottom: 100px;
+  
 }
 
 .Vision-main h1 {
@@ -930,6 +878,7 @@ textarea {
 .aims-main {
   padding: 50px;
   width: 100%;
+  text-align: justify;
 }
 
 .aims-main h2 {
@@ -1099,6 +1048,7 @@ textarea {
   padding: 20px 100px;
   margin-top: 100px;
   margin-bottom: 100px;
+  text-align: justify;
 }
 
 .Rules-main h1 {
@@ -1144,6 +1094,7 @@ textarea {
   align-items: center;
   padding: 0px 20px;
   height: 350px;
+  text-align: justify;
 
 }
 
@@ -1202,7 +1153,7 @@ textarea {
   align-items: center;
   padding: 0px 20px;
   height: 350px;
-
+text-align: justify;
 }
 
 .smart-image {
@@ -1295,6 +1246,7 @@ width: 50%;
 }
 .clab-text{
   width: 50%;
+  text-align: justify;
 
 }
 
