@@ -201,6 +201,9 @@ header {
   .facility-item {
     padding: 10px;
   }
+  .img-fluid{
+    width:50% !important;
+  }
 }
 
 /* Counter Section Starting */
